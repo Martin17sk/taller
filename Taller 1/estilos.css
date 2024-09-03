@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display:flex;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+}
+
+.Logotype{
+    width: 270px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.Logotype h1{
+    font-size: 50px;
+    color: #000;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.Logotype img{
+    width: 80px;
+    height: 50px;
+    float: left;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-color: #000;
+}
+
+.Navbar h4{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+    color: #000;
+}
+
+.Utilities{
+    float: right;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.Utilities img{
+    width: 60px;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.Cards img{
+    border-radius: 20px;
+}
+
+.ProductTitle {
+    font-weight: bold;
+}
+
+.Products img{
+    width: 100%;
+}
+
+.Products h1{
+    font-size: 40px;
+}
+
+.Desc {
+    color: gray;
+    font-size: 120 px;
+}
+
+.Price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Products div {
+    width: 20%;
+    background-color: #f8f9f9 ;
+}
